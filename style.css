@@ -425,6 +425,12 @@ form .btn2{
 
 /* Adjustments for small screens */
 @media screen and (max-width: 768px) {
+     #header {
+        background-image: url(/bckgd-small.png); /* Update the path to the small screen background image */
+        background-size: cover;
+        background-position: center;
+        height: 300px; /* Adjust the height according to your design */
+      }
     .header-text {
       margin-top: 10%;
     }
