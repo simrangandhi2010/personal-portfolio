@@ -437,19 +437,18 @@ form .btn2{
     }
   
     .header-text h1 {
-      font-size: 40px;
-        
+      font-size: 40px;  
     }
   
     .about-col-1,
     .about-col-2 {
-        padding-bottom:20px;
       flex-basis: 100%;
       text-align: center;
     }
   
     .about-col-1 img {
        width:70%;
+        padding-bottom:20px;
     }
   
     .experiences-list,
