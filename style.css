@@ -440,15 +440,15 @@ form .btn2{
       font-size: 40px;  
     }
   
-    .about-col-1,
-    .about-col-2 {
-      flex-basis: 100%;
-      text-align: center;
-    }
-  
-    .about-col-1 img {
-       width:70%;
-    }
+   .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .about-col-1 img {
+    width: 70%;
+  }
   
     .experiences-list,
     .project-list,
