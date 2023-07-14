@@ -429,7 +429,8 @@ form .btn2{
         background-image: url(/bckgd-small.png); /* Update the path to the small screen background image */
         background-size: cover;
         background-position: center;
-        height: 300px; /* Adjust the height according to your design */
+        height: 100px; /* Adjust the height according to your design */
+         
       }
     .header-text {
       margin-top: 10%;
@@ -437,7 +438,7 @@ form .btn2{
   
     .header-text h1 {
       font-size: 40px;
-        padding-bottom:20px;
+        
     }
   
     .about-col-1,
