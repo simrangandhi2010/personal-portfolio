@@ -446,6 +446,7 @@ form .btn2{
     }
   
     .about-col-1 img {
+        padding-top:30px;
       width: 50%;
         height: 20%;
     }
