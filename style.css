@@ -421,3 +421,97 @@ form .btn2{
     border-radius: 25px;
 }
 
+/* CSS code for responsiveness */
+
+/* Adjustments for small screens */
+@media screen and (max-width: 768px) {
+
+    #header {
+        background-image: url(/mobile_bckgd.png); 
+    }
+    
+    .header-text {
+      margin-top: 10%;
+    }
+  
+    .header-text h1 {
+      font-size: 70px;
+    }
+  
+    .about-col-1,
+    .about-col-2 {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    .about-col-1 img {
+      width: 70%;
+    }
+  
+    .experiences-list,
+    .project-list,
+    .position-list {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+  
+    .position,
+    .project,
+    .experiences-list div {
+      padding: 20px;
+      font-size: 12px;
+    }
+  
+    .tab-links,
+    .tab-contents,
+    .project .layer,
+    .position .layer {
+      font-size: 12px;
+    }
+  
+    .contact-left,
+    .contact-right {
+      flex-basis: 100%;
+    }
+  
+    form input,
+    form textarea {
+      font-size: 14px;
+    }
+  
+    .btn.btn2,
+    form .btn2 {
+      font-size: 14px;
+    }
+  }
+  
+  /* Adjustments for medium screens */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header-text {
+      margin-top: 15%;
+    }
+  
+    .header-text h1 {
+      font-size: 50px;
+    }
+  
+    .about-col-1 img {
+      width: 80%;
+    }
+  }
+  
+  /* Adjustments for large screens */
+  @media screen and (min-width: 1025px) {
+    .header-text {
+      margin-top: 20%;
+    }
+  
+    .header-text h1 {
+      font-size: 60px;
+    }
+  
+    .about-col-1 img {
+      width: 100%;
+    }
+  }
+  
